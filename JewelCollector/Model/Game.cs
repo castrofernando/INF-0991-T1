@@ -1,5 +1,6 @@
 namespace JewelCollector.Model;
 
+//Alteração realizada por Fernando
 public class Game
 {
     private readonly int rows = 10;
@@ -16,7 +17,7 @@ public class Game
         this.Map = new Map(rows,cols);
         this.Robot = new Robot(0,0);
         TotalBagItens = 0;
-        BagTotalValue =0;
+        BagTotalValue =92;
         GenerateElements();
     }
     public Map Map { get; set; }
