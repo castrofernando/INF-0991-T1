@@ -11,12 +11,13 @@ public class Game
     public event keyboardHandler onKeyLeftPress;
     public event keyboardHandler OnKeyRightPress;     
 
+    //Alteração realizada por Rafael
     public Game()
     {
         this.Map = new Map(rows,cols);
         this.Robot = new Robot(0,0);
         TotalBagItens = 0;
-        BagTotalValue =0;
+        BagTotalValue =50;
         GenerateElements();
     }
     public Map Map { get; set; }
